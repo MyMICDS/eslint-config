@@ -1,0 +1,27 @@
+{
+  "name": "@mymicds/eslint-config",
+  "version": "1.0.0",
+  "description": "A shared ESLint config for MyMICDS projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MyMICDS/eslint-config.git"
+  },
+  "author": "MyMICDS Development Team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MyMICDS/eslint-config/issues"
+  },
+  "homepage": "https://github.com/MyMICDS/eslint-config#readme",
+  "peerDependencies": {
+    "eslint": ">=7.4.0",
+    "@typescript-eslint/eslint-plugin": ">=3.6.1",
+    "typescript": ">=3.9"
+  },
+  "dependencies": {
+    "@typescript-eslint/parser": "^3.6.1"
+  }
+}
