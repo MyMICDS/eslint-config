@@ -15,6 +15,7 @@ module.exports = {
 		'@typescript-eslint/no-misused-promises': ['error', { checksVoidReturn: false }],
 		'@typescript-eslint/no-namespace': ['error', { allowDeclarations: true }],
 		'@typescript-eslint/no-non-null-assertion': 'off',
+		'@typescript-eslint/no-shadow': 'error',
 		'@typescript-eslint/no-unsafe-assignment': 'off',
 		'@typescript-eslint/no-unsafe-call': 'off',
 		'@typescript-eslint/no-unsafe-member-access': 'off',
@@ -25,7 +26,6 @@ module.exports = {
 		'no-lonely-if': 'warn',
 		'no-restricted-syntax': ['error', 'ForInStatement'], // based on AST nodes
 		'no-return-await': 'warn',
-		'no-shadow': 'error',
 		'no-var': 'error',
 		'object-shorthand': 'error',
 		'one-var': ['warn', 'never'],
