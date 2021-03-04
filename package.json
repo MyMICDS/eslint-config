@@ -1,6 +1,6 @@
 {
   "name": "@mymicds/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A shared ESLint config for MyMICDS projects",
   "main": "index.js",
   "repository": {
